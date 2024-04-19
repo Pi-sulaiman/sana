@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  cursor: none;
+}
+
+svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120%;
+}
+
+path {
+  fill: #e9dfce;
+}
+
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 999;
+  mix-blend-mode: difference;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+.cursor-text {
+  font-size: 5px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  display: none;
+}
+
+.main {
+  height: 10vh;
+  width: 100vw;
+  position: relative;
+}
+
+.sliderContainer {
+  position: absolute;
+}
+
+.slider {
+  position: relative;
+  white-space: nowrap;
+  display: flex;
+}
+
+.sliderText {
+  margin: 0px;
+  color: #e9dfce;
+}
+
+.slider p:nth-of-type(2) {
+  position: absolute;
+  left: 100%;
+}
+
+.modalContainer {
+  height: 550px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.modalSlider {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.modal {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal img {
+  height: 300px;
+}
+
+@font-face {
+  font-family: "Degular";
+  src: url("../public/fonts/degular/Degular-Regular.otf");
+}
+@font-face {
+  font-family: "Grand Slang";
+  src: url("../public/fonts/grand-slang/GrandSlang-B-Side.ttf");
+}
+@font-face {
+  font-family: "Grand Slang Italic";
+  src: url("../public/fonts/grand-slang/GrandSlang-Italic.ttf");
+}
+@font-face {
+  font-family: "Migra Italic";
+  src: url("../public/fonts/migra/Migra\ Italic\ Extralight\ Italic\ 200.otf");
+}
+@font-face {
+  font-family: "Migra Italic Extrabold";
+  src: url("../public/fonts/migra/Migra\ Italic\ Extrabold\ Italic\ 800.otf");
+}
+
+@font-face {
+  font-family: "Migra Extralight";
+  src: url("../public/fonts/migra/Migra\ Extralight\ 200.otf");
+}
