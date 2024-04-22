@@ -122,3 +122,30 @@ path {
   font-family: "Migra Extralight";
   src: url("../public/fonts/migra/Migra\ Extralight\ 200.otf");
 }
+
+.cssaftericon:after {
+  content: "🌸";
+  display: inline-block;
+  animation: rotating 3s infinite linear;
+  position: absolute;
+
+}
+.cssaftericon:after{
+  right: 349px ;
+  font-size: 28px;
+  top: -30px;
+}
+
+@keyframes rotating {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+@media (max-width: 767px) {
+  .cssaftericon:after {
+      font-size: 17px;
+      top: -15px;
+      right: 46%;
+  }
+}

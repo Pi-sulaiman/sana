@@ -18,7 +18,7 @@ const Navbar = () => {
     <div className="w-full fixed flex justify-between items-center md:px-20 sm:px-8 pt-6 z-[20]">
       <Magnetic>
         <Link href="/" className="text-[#e9dfce] text-[20px] cursor-pointer">
-          Ахмеджанов
+          Sana
         </Link>
       </Magnetic>
 

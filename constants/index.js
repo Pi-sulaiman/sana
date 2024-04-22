@@ -1,8 +1,8 @@
 export const hero = [
   {
     id: "hero-1",
-    title: "FRONTEND DEVELOPER",
-    css: "font-degular relative md:top-32 sm:top-8",
+    title: "CREATIVE UI/UX DESIGNER",
+    css: "font-grandslang md:text-[30px] sm:text-[20px] relative md:top-32 sm:top-8",
   },
   {
     id: "hero-2",
@@ -11,7 +11,7 @@ export const hero = [
   },
   {
     id: "hero-3",
-    title: "DELIGHTFUL",
+    title: " DELIGHTFUL",
     css: "font-grandslang md:text-[100px] sm:text-[50px] relative md:top-16",
   },
   {
@@ -29,9 +29,15 @@ export const hero = [
     title: "business",
     css: "font-migrabold md:text-[50px] sm:text-[25px] md:ml-24 sm:ml-20 relative md:bottom-12 sm:bottom-16",
   },
-];
+]
 
 export const navbar = [
+  {
+    id: "nav-1",
+    title1: "HOME ",
+    title2: "HOME ",
+    path: "/",
+  },
   {
     id: "nav-1",
     title1: "WORKS ",
@@ -72,47 +78,47 @@ export const projects = [
   {
     id: "project-1",
     imgUrl: "/images/cure.jpg",
-    path: "https://cure-bice.vercel.app/",
+    path: "https://nizzo.sulai.men/",
     css: "my-20 md:ml-96",
-    h1: "Cure",
+    h1: "NIZO",
     h2: "Next.js - React.js - TailwindCSS - Framer Motion - GSAP",
   },
   {
     id: "project-2",
     imgUrl: "/images/metaversus.jpg",
-    path: "https://akhmedzhanovm.github.io/metaversus/",
+    path: "https://dribbble.com/shots/16895170-Glassmorphism-mobile-app",
     css: "my-20 md:mr-96",
-    h1: "Metaversus",
+    h1: "ERP Dashboard",
     h2: "Next.js - React.js - TailwindCSS - Framer Motion",
   },
   {
     id: "project-3",
     imgUrl: "/images/personal.jpg",
-    path: "https://akhmedzhanovm.github.io/personal/",
+    path: "https://sanaa.vercel.app/",
     css: "my-20 md:ml-96",
     h1: "Personal",
-    h2: "React.js - TailwindCSS",
+    h2: "React.js - Next.js - Tailwind CSS - HTML - CSS ",
   },
 ];
 
 export const works = [
   {
     id: "work-1",
-    h1: "Cure",
-    h2: "Next.js - React.js - Tailwind CSS - Framer Motion",
-    path: "https://cure-bice.vercel.app/",
+    h1: "NIZO",
+    h2: "Figam - Content Wroting - PhotoShop - WordPress",
+    path: "https://nizzo.sulai.men/",
   },
   {
     id: "work-2",
-    h1: "Metaversus",
-    h2: "Next.js - React.js - Tailwind CSS - Framer Motion",
-    path: "https://akhmedzhanovm.github.io/metaversus/",
+    h1: "ERP Dashboard",
+    h2: "Figma - PhotoShop - UX Research ",
+    path: "https://dribbble.com/shots/16895170-Glassmorphism-mobile-app",
   },
   {
     id: "work-3",
     h1: "Personal",
-    h2: "React.js - Tailwind CSS",
-    path: "https://akhmedzhanovm.github.io/personal/",
+    h2: "React.js - Next.js - Tailwind CSS - HTML - CSS ",
+    path: "https://sanaa.vercel.app/",
   },
 ];
 

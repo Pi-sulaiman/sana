@@ -25,23 +25,19 @@ const Dream = () => {
         className="text-[30px] md:w-[420px] sm:w-[340px] md:mb-80 mx-20"
       >
         I am a curious person, living my{" "}
-        <span className="font-grandslangitalic">dream</span> freelance career,
-        and keeping an{" "}
-        <span className="font-grandslangitalic">eye at the future</span>.
+        <span className="font-grandslangitalic">dream</span> for success in career,
+        and keeping an eye at the{" "}
+        <span className="font-grandslangitalic"> future</span>.
       </motion.p>
       <motion.div
         style={{ y: parallax }}
         className="flex flex-col md:w-[370px] sm:w-[300px] opacity-[0.8] mb-60 mx-20"
       >
         <p>
-          I live in the great steppe of Kazakhstan. Spending my days learning,
-          practicing, making mistakes and starting again.
+        Hey there, I'm Sana Shah, a creative powerhouse at SS Infotech in Mumbai. I mix pixels with puns and a lot of caffeine to craft delightful user experiences and stories that spark joy. Join me on this wild ride of creativity and coffee-fueled adventures!
         </p>
         <p className="mt-4">
-          My only reason to do all of it is my family. I knew, that it isn't so
-          fast to learn it and find a job. But now I have a lot of experience
-          already and I make cool projects like this one. So, everything is
-          ahead.
+        I juggle pixels, puns, and the occasional spilled latte to create experiences that are as delightful as a well-timed punchline. Let's embark on this caffeinated journey together—where every click is a chuckle and every design is a delightful surprise!
         </p>
       </motion.div>
     </div>

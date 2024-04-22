@@ -23,14 +23,14 @@ const Interaction = () => {
         style={{ x: textMove1 }}
         className="md:text-[15px] sm:text-[10px] font-degular md:mr-[800px] sm:mr-[200px] top-20 relative md:mb-0 sm:mb-10"
       >
-        * SPECIALIZING IN MOBILE APPS,
+        * SPECIALIZING IN DESIGN,
         <br />
-        WEBSITES AND PRODUCT DESIGN *
+        AND BEING CREATIVE *
       </motion.h2>
 
       <motion.h1
         style={{ x: textMove2 }}
-        className="md:text-[150px] sm:text-[55px] font-grandslang md:leading-[300px] sm:leading-[150px]"
+        className="md:text-[110px] sm:text-[45px] font-grandslang md:leading-[300px] sm:leading-[150px]"
       >
         INTERACTION
         <br />
@@ -46,13 +46,16 @@ const Interaction = () => {
 
       <motion.h1
         style={{ x: textMove4 }}
-        className="md:text-[100px] sm:text-[50px] font-grandslangitalic absolute mt-80 md:ml-40 md:leading-[300px] sm:leading-[150px] md:mb-0 sm:mb-32"
+        className=" md:text-[100px] sm:text-[37px] font-grandslangitalic absolute mt-80 md:ml-40 md:leading-[300px] sm:leading-[150px] md:mb-0 sm:mb-32"
       >
-        developer
+        <span className="cssaftericon">design</span>
         <br />
         <span className="md:text-[40px] sm:text-[20px] md:ml-40">of</span>
-        Nature
+        Nature 
+        {/* <span className="md:text-[25px] sm:text-[15px]">🌸</span> */}
+       
       </motion.h1>
+      {/* <div class="holder1"><span class="icon1">🌸</span></div> */}
     </div>
   );
 };

@@ -26,8 +26,8 @@ const InfiniteText = () => {
     <div className="main">
         <div className="sliderContainer">
             <div className="slider">
-                <p ref={firstText} className="sliderText font-grandslangitalic md:text-[240px] sm:text-[120px]">PORTFOLIO -</p>
-                <p ref={secondText} className="sliderText font-grandslangitalic md:text-[240px] sm:text-[120px]">PORTFOLIO -</p>
+                <p ref={firstText} className="sliderText font-grandslangitalic md:text-[240px] sm:text-[120px]">SANA-SHAH -</p>
+                <p ref={secondText} className="sliderText font-grandslangitalic md:text-[240px] sm:text-[120px]">SANA-SHAH -</p>
             </div>
         </div>
     </div>

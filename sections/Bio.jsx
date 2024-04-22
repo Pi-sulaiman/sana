@@ -27,9 +27,7 @@ const Bio = () => {
           viewport={{ once: true }}
           className="text-[#e9dfce] text-[20px] font-migra font-medium mx-10 md:w-[440px] sm:w-[320px]"
         >
-          I'm a Kazakh Frontend Developer based in Kazakhstan, currently working
-          at Ахмеджанов. I delivere high quality websites for any type of
-          business idea.
+         My name is Sana Shah, and I'm from Mumbai, India. Currently, I work at SS Infotech. I am a creative UI/UX designer and a creative writer with expertise in Figma and other software.
         </motion.p>
         <Magnetic>
           <div className="cursor-pointer border-[1px] border-[#e9dfce] md:p-8 sm:p-10 text-center md:h-[115px] rounded-full mt-10 md:mx-40 sm:mx-32">

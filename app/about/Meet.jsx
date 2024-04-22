@@ -38,16 +38,11 @@ const Meet = () => {
         </p>
 
         <p className="mt-4">
-          My name is Mohammed Akhmedzhanov and I'm a Frontend Developer. I
-          started working on UIs with my business idea called{" "}
-          <span className="migrabold">Ахмеджанов</span>.
+        I'm Sana Shah, your curator of creativity at SS Infotech. From designing delightful UI/UX experiences to penning enchanting narratives, I sprinkle magic into every pixel and word.         
         </p>
 
         <p className="mt-4">
-          I am currently working at{" "}
-          <span className="font-migrabold">Ахмеджанов</span>, taking care of the
-          design, sharing ideas with amazing talented people.
-        </p>
+        Nestled within the vibrant realm of SS Infotech, I collaborate with a symphony of talented minds, weaving dreams into digital reality. It's a pleasure to cross paths with you and embark on this wondrous voyage of imagination!        </p>
       </motion.div>
     </div>
   );
