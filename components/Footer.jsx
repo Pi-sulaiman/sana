@@ -24,15 +24,15 @@ const Footer = () => {
 
       <div className="sm:my-2 md:mr-28">
         <p className="text-white text-[10px] font-degular">
-          &#x00A9; Ахмеджанов 2024
+          &#x00A9; Pi Sulaiman 2024
         </p>
       </div>
 
-      <div className="md:mr-14 sm:my-2">
+      {/* <div className="md:mr-14 sm:my-2">
         <Magnetic>
           <a href="/resume/cv.docx" download className="text-white font-degular">DOWNLOAD RESUME</a>
         </Magnetic>
-      </div>
+      </div> */}
     </div>
   );
 };

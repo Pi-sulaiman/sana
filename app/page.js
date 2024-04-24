@@ -22,7 +22,7 @@ const page = () => {
   }, []);
 
   return (
-    <div className="bg-[#1e2125] overflow-hidden">
+    <div className="bg-[#DEACC2] overflow-hidden">
       <AnimatePresence mode="wait">
         {isLoading && <Preloader />}
       </AnimatePresence>

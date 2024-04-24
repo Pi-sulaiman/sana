@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <div className="w-full fixed flex justify-between items-center md:px-20 sm:px-8 pt-6 z-[20]">
       <Magnetic>
-        <Link href="/" className="text-[#e9dfce] text-[20px] cursor-pointer">
+        <Link href="/" className="font-grandslang text-[#4551EE] text-[40px] cursor-pointer">
           Sana
         </Link>
       </Magnetic>
@@ -38,17 +38,17 @@ const Navbar = () => {
         variants={navSlide}
         initial="closed"
         animate={toggle ? "open" : "closed"}
-        className="fixed bg-[#e9dfce] h-[100vh] w-[100vw] justify-center items-center top-0 left-0 flex flex-col"
+        className="fixed bg-[#3C49EC] h-[100vh] w-[100vw] justify-center items-center top-0 left-0 flex flex-col"
       >
         {navbar.map((navbar) => (
           <a
             key={navbar.id}
             href={navbar.path}
-            className="my-10 border-[1.5px] border-[#e9dfce] rounded-full w-[400px] h-[100px] flex flex-col overflow-hidden"
+            className="my-10 border-[1.5px] border-[#3C49EC] rounded-full w-[400px] h-[100px] flex flex-col overflow-hidden"
           >
             <motion.div variants={button2} whileHover="up" className="h-full">
-              <p className="text-[#242527] font-grandslangitalic w-full h-full flex justify-center items-center md:text-[100px] sm:text-[50px]">{navbar.title1}</p>
-              <p className="text-[#242527] font-grandslang w-full h-full flex justify-center items-center md:text-[100px] sm:text-[50px]">{navbar.title1}</p>
+              <p className="text-[#D5A6C0] font-grandslangitalic w-full h-full flex justify-center items-center md:text-[100px] sm:text-[50px]">{navbar.title1}</p>
+              <p className="text-[#D5A6C0] font-grandslang w-full h-full flex justify-center items-center md:text-[100px] sm:text-[50px]">{navbar.title1}</p>
             </motion.div>
           </a>
         ))}

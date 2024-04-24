@@ -32,12 +32,13 @@ const Portfolio = () => {
               className="rounded-[20px] md:w-[500px] md:h-[350px] sm:w-[300px] sm:h-[200px]"
             />
           </motion.div>
-          <motion.div style={{ y: parallaxText }} className="absolute mix-blend-difference">
+          {/* <motion.div style={{ y: parallaxText }} className="absolute mix-blend-difference"> */}
+          <motion.div style={{ y: parallaxText }} className="absolute ">
             
-            <div className=" text-[#e9dfce] md:text-[100px] sm:text-[50px] font-grandslang">
+            <div className=" text-[#4551EE] md:text-[100px] sm:text-[50px] font-grandslang">
               {projects.h1}
             </div>
-            <div className="text-[#e9e9e9] md:text-[18px] sm:text-[14px] font-degular leading-[1px]">
+            <div className="text-[#e9e9e9] md:text-[18px] sm:text-[14px] font-degular leading-[1px] ">
               {projects.h2}
             </div>
           </motion.div>

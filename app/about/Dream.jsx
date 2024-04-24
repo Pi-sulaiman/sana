@@ -15,7 +15,7 @@ const Dream = () => {
   return (
     <div
       ref={container}
-      className="md:h-[100vh] sm:h-[150vh] w-[100vw] flex md:flex-row sm:flex-col justify-center items-center text-[#e9dfce] font-migra"
+      className="md:h-[100vh] sm:h-[150vh] w-[100vw] flex md:flex-row sm:flex-col justify-center items-center text-[#4551EE] font-migra"
     >
       <motion.p
         variants={textUp}

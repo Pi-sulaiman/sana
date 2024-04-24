@@ -6,6 +6,7 @@ body {
   cursor: none;
 }
 
+
 svg {
   position: absolute;
   top: 0;
@@ -148,4 +149,9 @@ path {
       top: -15px;
       right: 46%;
   }
+  #custom-cursor{
+
+    display: none;
+    
+    }
 }

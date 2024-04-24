@@ -10,10 +10,10 @@ const Preloader = () => {
       variants={slideUp}
       initial="initial"
       animate="animate"
-      className="bg-[#e9dfce] h-[100vh] w-[100vw] z-[1000] fixed flex justify-center items-center"
+      className="bg-[#8373D7] h-[100vh] w-[100vw] z-[1000] fixed flex justify-center items-center"
     >
         <>
-          <h2 className="text-[#1e2125] text-[20px]">Ахмеджанов</h2>
+          <h2 className="text-[#fff] text-[20px]">Ахмеджанов</h2>
           <svg>
             <motion.path
               variants={curve}

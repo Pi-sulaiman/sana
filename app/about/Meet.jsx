@@ -31,7 +31,7 @@ const Meet = () => {
         initial="initial"
         whileInView="enter"
         viewport={{ once: true }}
-        className="text-[#e9dfce] text-[20px] font-migra mx-10 md:w-[400px] sm:w-[340px]"
+        className="text-[#4551EE] text-[20px] font-migra mx-10 md:w-[400px] sm:w-[340px]"
       >
         <p>
           Nice to <span className="font-migraitalic">meet you</span> all.

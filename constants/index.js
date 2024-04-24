@@ -54,24 +54,24 @@ export const navbar = [
 export const links = [
   {
     id: "links-1",
-    imgUrl: "/images/whatsapp.svg",
-    path: "https://wa.me/77762589400",
+    imgUrl: "/images/insta.svg",
+    path: "https://instagram.com",
   },
   {
     id: "links-2",
     imgUrl: "/images/in.svg",
-    path: "https://www.linkedin.com/in/mohammed-akhmedzhanov/",
+    path: "https://www.linkedin.com/in/pi-sulaiman/",
   },
-  {
-    id: "links-3",
-    imgUrl: "/images/hh.svg",
-    path: "https://hh.kz/applicant/settings?from=header_new&hhtmFromLabel=header_new&hhtmFrom=resume_profile_front",
-  },
-  {
-    id: "links-4",
-    imgUrl: "/images/up.svg",
-    path: "https://www.upwork.com/freelancers/~01e3bb7a515b733028",
-  },
+  // {
+  //   id: "links-3",
+  //   imgUrl: "/images/hh.svg",
+  //   path: "https://hh.kz/applicant/settings?from=header_new&hhtmFromLabel=header_new&hhtmFrom=resume_profile_front",
+  // },
+  // {
+  //   id: "links-4",
+  //   imgUrl: "/images/up.svg",
+  //   path: "https://www.upwork.com/freelancers/~01e3bb7a515b733028",
+  // },
 ];
 
 export const projects = [

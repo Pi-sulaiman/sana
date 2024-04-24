@@ -17,7 +17,7 @@ const Interaction = () => {
   return (
     <div
       ref={container}
-      className="md:h-[150vh] sm:h-[100vh] w-[100vw] flex flex-col justify-center items-center text-[#e9dfce] ml-10"
+      className="md:h-[150vh] sm:h-[100vh] w-[100vw] flex flex-col justify-center items-center text-[#4551EE] ml-10"
     >
       <motion.h2
         style={{ x: textMove1 }}
