@@ -5,6 +5,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { navSlide } from "../utils/motion";
 import menu from "../public/images/menu.svg";
+import logo from "../public/images/logo.svg";
 import close from "../public/images/close.svg";
 import Magnetic from "./Magnetic";
 import Link from "next/link";
@@ -18,7 +19,12 @@ const Navbar = () => {
     <div className="w-full fixed flex justify-between items-center md:px-20 sm:px-8 pt-6 z-[20]">
       <Magnetic>
         <Link href="/" className="font-grandslang text-[#4551EE] text-[40px] cursor-pointer">
-          Sana
+        <Image
+            src={logo}
+            width={50}
+            height={50}
+            className="z-[20] cursor-pointer"
+          />
         </Link>
       </Magnetic>
 
