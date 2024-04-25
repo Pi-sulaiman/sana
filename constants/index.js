@@ -110,7 +110,7 @@ export const works = [
   },
   {
     id: "work-2",
-    h1: "ERP Dashboard",
+    h1: "ERP",
     h2: "Figma - PhotoShop - UX Research ",
     path: "https://dribbble.com/shots/16895170-Glassmorphism-mobile-app",
   },

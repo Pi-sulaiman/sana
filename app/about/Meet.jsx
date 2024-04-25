@@ -23,7 +23,7 @@ const Meet = () => {
           src="/images/me.jpg"
           width={1000}
           height={1000}
-          className="w-[280px] h-[300px] rounded-[50px]"
+          className="w-[280px] h-[300px] rounded-[30px]"
         />
       </motion.div>
       <motion.div
