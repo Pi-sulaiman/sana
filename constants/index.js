@@ -55,12 +55,12 @@ export const links = [
   {
     id: "links-1",
     imgUrl: "/images/insta.svg",
-    path: "https://instagram.com",
+    path: "https://www.instagram.com/invites/contact/?igsh=vscpruqq8qun&utm_content=7r43874",
   },
   {
     id: "links-2",
     imgUrl: "/images/in.svg",
-    path: "https://www.linkedin.com/in/pi-sulaiman/",
+    path: "https://www.linkedin.com/in/sana-shah-k",
   },
   // {
   //   id: "links-3",
